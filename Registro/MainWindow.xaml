@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="53" Margin="53,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"/>
+        <TextBox x:Name="txtCognome" TextWrapping="Wrap" Margin="312,55,341,326"/>
+        <Button x:Name="btnInserisci" Content="inserisci" HorizontalAlignment="Left" Margin="645,55,0,0" VerticalAlignment="Top" Height="57" Width="91" RenderTransformOrigin="0.504,0.564" Click="btnInserisci_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="53,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"><Run Language="it-it" Text="nome "/><LineBreak/><Run Language="it-it"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="312,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"><Run Language="it-it" Text="cognome"/><LineBreak/><Run Language="it-it"/></TextBlock>
+
     </Grid>
 </Window>
