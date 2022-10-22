@@ -6,14 +6,16 @@
         xmlns:local="clr-namespace:Registro"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="53" Margin="53,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"/>
-        <TextBox x:Name="txtCognome" TextWrapping="Wrap" Margin="312,55,341,326"/>
-        <Button x:Name="btnInserisci" Content="inserisci" HorizontalAlignment="Left" Margin="645,55,0,0" VerticalAlignment="Top" Height="57" Width="91" RenderTransformOrigin="0.504,0.564" Click="btnInserisci_Click"/>
-        <TextBlock HorizontalAlignment="Left" Height="29" Margin="53,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"><Run Language="it-it" Text="nome "/><LineBreak/><Run Language="it-it"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="29" Margin="312,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"><Run Language="it-it" Text="cognome"/><LineBreak/><Run Language="it-it"/></TextBlock>
-        <Button x:Name="btnVisualizza" Content="visualizza" HorizontalAlignment="Left" Height="56" Margin="601,206,0,0" VerticalAlignment="Top" Width="157" Click="btnVisualizza_Click_1"/>
-        <ListBox x:Name="lstVisualizza" HorizontalAlignment="Left" Height="131" Margin="195,193,0,0" VerticalAlignment="Top" Width="233" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+	<Grid>
+		<TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="53" Margin="53,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"/>
+		<TextBox x:Name="txtCognome" TextWrapping="Wrap" Margin="312,55,341,326"/>
+		<Button x:Name="btnInserisci" Content="inserisci" HorizontalAlignment="Left" Margin="528,55,0,0" VerticalAlignment="Top" Height="57" Width="92" RenderTransformOrigin="0.504,0.564" Click="btnInserisci_Click"/>
+		<TextBlock HorizontalAlignment="Left" Height="29" Margin="53,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"><Run Language="it-it" Text="nome "/><LineBreak/><Run Language="it-it"/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Height="29" Margin="312,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"><Run Language="it-it" Text="cognome"/><LineBreak/><Run Language="it-it"/></TextBlock>
+		<Button x:Name="btnVisualizza" Content="visualizza" HorizontalAlignment="Left" Height="56" Margin="256,201,0,0" VerticalAlignment="Top" Width="157" Click="btnVisualizza_Click_1"/>
+		<ListBox x:Name="lstVisualizza" HorizontalAlignment="Left" Height="131" Margin="503,168,0,0" VerticalAlignment="Top" Width="233" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+		<Button x:Name="btnElimina" HorizontalAlignment="Left" Height="39" Margin="264,341,0,0" VerticalAlignment="Top" Width="142" Content="Elimina" Click="btnElimina_Click"/>
+		<TextBox x:Name="txtDato" HorizontalAlignment="Left" Height="38" Margin="547,346,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="121"/>
 
-    </Grid>
+	</Grid>
 </Window>
