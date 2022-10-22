@@ -12,6 +12,8 @@
         <Button x:Name="btnInserisci" Content="inserisci" HorizontalAlignment="Left" Margin="645,55,0,0" VerticalAlignment="Top" Height="57" Width="91" RenderTransformOrigin="0.504,0.564" Click="btnInserisci_Click"/>
         <TextBlock HorizontalAlignment="Left" Height="29" Margin="53,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"><Run Language="it-it" Text="nome "/><LineBreak/><Run Language="it-it"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="29" Margin="312,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"><Run Language="it-it" Text="cognome"/><LineBreak/><Run Language="it-it"/></TextBlock>
+        <Button x:Name="btnVisualizza" Content="visualizza" HorizontalAlignment="Left" Height="56" Margin="601,206,0,0" VerticalAlignment="Top" Width="157" Click="btnVisualizza_Click_1"/>
+        <ListBox x:Name="lstVisualizza" HorizontalAlignment="Left" Height="131" Margin="195,193,0,0" VerticalAlignment="Top" Width="233" d:ItemsSource="{d:SampleData ItemCount=5}"/>
 
     </Grid>
 </Window>
